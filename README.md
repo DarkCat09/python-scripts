@@ -1,6 +1,7 @@
 # python-scripts
 My useful python scripts.
 - `apk_mixer` - view https://habr.com/ru/post/422885/
+- `math_bruteforce` - scripts for "bruteforcing" mathematical expressions. Merge from [DarkCat09/Math_BruteForce](https://github.com/DarkCat09/Math_BruteForce).
 - `base64passwds.py` - writes your credentials to a file, encrypting password using Base64.
 - `calculator.py` - calculator :)
 - `fasticoconverter.py` - I tried to use online-convert.com API...
