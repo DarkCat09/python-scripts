@@ -16,7 +16,7 @@ template = '{author} -- {title} -- {year}.{ext}'
 curdir = os.getcwd()
 # Компилируем регулярку
 # https://regexr.com/5q42v
-bookregex = re.compile(r'[\[\(]*([А-Яа-я\w\s]+?)[\]\)]*[:\.\-\s]*([А-Яа-я\w\d\s]+?)[:\.\-\s]*(\d+)(?:\.(pdf|doc[x]*|epub|fb2|txt))')
+bookregex = re.compile(r'[\[\(]*([А-Яа-я\w\s]+?)[\]\)]*[:\.\-\s]*([А-Яа-я\w\d\s]+?)[:\.\-\s]*(\d+)(?:\.(pdf|doc[x]*|odf|epub|fb2|txt))')
 
 # Получаем дерево каталогов и файлов в curdir
 for rootdir, subdirs, files in os.walk(curdir):
