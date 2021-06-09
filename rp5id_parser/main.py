@@ -11,11 +11,11 @@ russian_cities_tree = html.fromstring(russian_cities_page.content)
 columns = russian_cities_tree.xpath('//div[@class="countryMap"]//div[@class="countryMap-cell"]')
 
 # File
-cities_file = open('cities.csv', 'wt')
+cities_file = open('russia.csv', 'wt')
 cities_file.write('ID,City\n')
 
 # Write all identifiers and cities
-city_link_regex = re.compile(r'^https*://rp5.ru/(Погода_в[А-Яа-я\w.,\-()]+)')
+city_link_regex = re.compile(r'^https*://rp5.ru/(Погода_[А-Яа-я\w.,\-()]+)')
 added_ids = []
 for col in columns:
     ids = col.xpath('.//span[@class="Ajax-PointID"]//@id')
