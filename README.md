@@ -16,3 +16,4 @@ My useful python scripts.
 - `speechrecog.py` - example of using Google speech recognition (module `SpeechRecognition`).
 - `translit.py` - transliteration for Russian text. Original file: [aruseni/translit_v4.py](https://gist.github.com/aruseni/1685068)
 - `virustotal_scanning.py` - scanning files on VT.
+- `yt_commentsort.py` - searching comments in a specified YouTube video by a search query (replace `YOUR_API_KEY` with your API Key).
